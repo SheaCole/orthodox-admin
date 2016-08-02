@@ -19,7 +19,7 @@
             <input name="password" type="password" class="form-control" id="" placeholder="password">
         </div>
 
-        <a href="">Reset my password by email.</a>
+        <a href="">Forgot my password.</a>
 
         <div class="clearfix"></div>
 
