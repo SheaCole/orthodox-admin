@@ -3,6 +3,7 @@
 @extends('header')
 
 @section('content')
+  <div class="sign-in">
     <h1 class="text-center">Welcome to Orthodox Admin</h1>
     <i><p class="text-center">A place organize your Orthodox life.</p></i>
 
@@ -29,4 +30,5 @@
 
         <a href=""><h3 class="text-center">Create an account</h3></a>
     </form>
+  </div>
 @stop

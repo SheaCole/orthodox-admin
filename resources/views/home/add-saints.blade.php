@@ -1,6 +1,5 @@
 @extends('layout')
 
-
 @section('content')
 
     <h1 class="text-center">Add a Saint to the database</h1>

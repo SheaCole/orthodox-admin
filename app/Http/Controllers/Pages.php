@@ -31,6 +31,11 @@ class Pages extends Controller
     return People::all();
   }
 
+  public function settings()
+  {
+    return view('home.settings');
+  }
+
 
 //People pages
   public function people()
@@ -47,5 +52,3 @@ class Pages extends Controller
   }
 
 }
-
-

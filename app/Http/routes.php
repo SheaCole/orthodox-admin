@@ -24,6 +24,8 @@ Route::get('all', 'Pages@all');
 
 Route::get('todays-saints', 'Pages@todays_saints');
 
+Route::get('settings', 'Pages@settings');
+
 
 // Saints
 Route::get('saints', 'SaintsController@saints');
@@ -33,8 +35,3 @@ Route::get('add-saints', 'SaintsController@add_a_saint');
 Route::get('saints/json', 'SaintsController@saintsJson');
 
 Route::post('saints', 'SaintsController@add_saints');
-
-
-
-
-
